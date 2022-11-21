@@ -197,7 +197,7 @@ const alex = new LeaoEspecifico({
   tamanho: 30,
   skill: "Dançarino",
 });
-
+// contrato
 interface ICaneta {
   PorcentagemDeTinta: number;
   cor: string;
@@ -209,7 +209,9 @@ type CanetaProps = {
   cor: string;
   ponta: number;
 };
-
+// implementando o contrato minha Caneta precisa ter   PorcentagemDeTinta: number;
+  // cor: string;
+ 
 class Caneta implements ICaneta {
   PorcentagemDeTinta: number = 100;
   ponta: number;
